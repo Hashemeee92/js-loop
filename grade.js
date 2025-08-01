@@ -4,7 +4,7 @@
 // C: 70-79
 //D: 60-69
 //F: 0-59
-let marks = 96;
+let marks = 56;
 if(marks>=90 && marks<=100){
 console.log('Grade is A:', marks);
 }
@@ -17,6 +17,6 @@ else  if(marks>=70 && marks<=79){
 else if(marks>=60 && marks<=69){
     console.log('Your Grade is: D and marks is:', marks)
 }
-else{
+else {
     console.log('Your are failed');
 }
